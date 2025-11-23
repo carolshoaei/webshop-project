@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K&K - Shopping Cart</title>
+
+    <!-- Linking av stylesheets og favicon -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/streng-reset.css" />
+    <link rel="icon" href="images/chicken-icon.jpg" />
+
+    <!-- Linking av FontAwesome -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+    ></script>
+
+    <!-- Link til js -->
+    <script defer src="scripts/side2.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- Wrapper-Div -->
+      <header>
+        <nav id="header__nav-bar">
+          <!-- NAVIGATION-->
+          <section id="header__left">
+            <i class="header__icon fa-solid fa-drumstick-bite" style="color:  #3c3c3c"></i>
+            <h3 id="header__nav-title">K&K - Innkjøp</h3>
+          </section>
+          <section id="header__right">
+            <a id="header__home-btn" href="side1.html">Hjem</a>
+            <a id="header__shopping-cart-btn" href="side2.html">Handlekurv<span id="header__cart-badge">0</span></a>
+          </section>
+        </nav>
+      </header>
+
+      <main>
+        <!-- Main Section -->
+         <section id="main__cart-banner">
+          <h2>Handlekurv</h2>
+         </section>
+         <div id="main__cart-info">
+            <h3>Produkt</h3>
+            <h3>Antall</h3>
+            <h3>Pris</h3>
+          </div>
+        <section id="main__cart-section">
+
+
+        </section>
+        <section id="main__total-section">
+          <h3>Total:</h3>
+          <h3 id="total-price">kr 0.00</h3>
+        </section>
+  
+      </main>
+    </div>
+  </body>
+</html>
